@@ -1,0 +1,10 @@
+.footer {
+    height: 5vh;
+    background-image: linear-gradient(0deg, rgba(191,255,243,1) 70%, rgba(191,255,243,0) 100%);
+    color: var(--dark-aqua);
+    text-align: center;
+}
+
+.footer > p {
+    margin-top: 20px;
+}

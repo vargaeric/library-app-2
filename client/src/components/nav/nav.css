@@ -1,0 +1,24 @@
+.nav {
+    height: 5vh;
+    background-image: linear-gradient(180deg, rgba(191,255,243,1) 70%, rgba(191,255,243,0) 100%);
+}
+
+.oneButton {
+    width: 120px;
+    height: 20px;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.oneButton > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--dark-aqua);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.oneButton > a:hover {
+    font-weight: 900;
+}

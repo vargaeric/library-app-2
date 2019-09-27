@@ -1,0 +1,27 @@
+:root {
+    --very-light-aqua: #dffff9;
+    --light-aqua: #bffff3;
+    --normal-aqua: #7fffe7;
+    --dark-aqua: #59b2a2;
+}
+
+body {
+    margin: 0;
+}
+
+.app {
+    height: 100vh;
+    background-color: var(--very-light-aqua);
+    font-family: 'Nunito', sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexContainerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
